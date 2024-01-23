@@ -1,0 +1,26 @@
+.fabCta {
+  position: fixed;
+  z-index: 9999;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  transform-origin: right bottom;
+  transition: width 0.5s, border-radius 200ms;
+}
+
+.expandedBox {
+  width: calc(100% - 40px);
+  /* height: 100px; */
+
+  /* bottom: 20px; */
+  /* left: 20px; */
+  /* right: 20px;/ */
+  /* background: black; */
+  border-radius: 25px;
+}
